@@ -80,14 +80,6 @@
         [
           "track_dangling|139755160|101855220|f072ef76-824b-466d-a634-ee058fccc312|00000000-0000-0000-0000-000000000000",
           ""
-        ],
-        [
-          "unconnected_items|142995160|122495220|F.Cu|4|429eb4b6-6ad1-4f7e-be0d-b69bb09b04d5|68a2ef15-fa5c-4870-802c-14e6cc5fe634",
-          ""
-        ],
-        [
-          "unconnected_items|146095160|101695220|F.Cu|4|5340466c-e13a-4b82-ac69-a4d5d65ca661|12a68e5b-f4dd-47e9-948a-f3d5def72c42",
-          ""
         ]
       ],
       "meta": {
@@ -224,6 +216,8 @@
       ],
       "track_widths": [
         0.0,
+        0.25,
+        0.5,
         0.75,
         1.0
       ],
@@ -291,6 +285,26 @@
     "erc_exclusions": [
       [
         "lib_symbol_issues|1473200|1028700|6f17b27d-2c34-48c5-a3d5-5f4fd8be0e7e|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|838200|-50800|5375d881-be7d-4df9-96ad-8e9138eeecfe|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "multiple_net_names|1473200|165100|037a1afd-1737-4513-973c-615cca29a069|3a45b18a-2ff0-4f77-9e19-303f58996c75|/d099c2d0-8dd1-473c-aeee-021881bb2b86|/d099c2d0-8dd1-473c-aeee-021881bb2b86|/d099c2d0-8dd1-473c-aeee-021881bb2b86",
+        ""
+      ],
+      [
+        "multiple_net_names|1473200|165100|5d8809d8-305d-431c-9fd1-544675a4cec8|3a45b18a-2ff0-4f77-9e19-303f58996c75|/d099c2d0-8dd1-473c-aeee-021881bb2b86|/d099c2d0-8dd1-473c-aeee-021881bb2b86|/d099c2d0-8dd1-473c-aeee-021881bb2b86",
+        ""
+      ],
+      [
+        "multiple_net_names|1473200|165100|89aaed07-a01f-4f8f-9ac9-17afe0267192|3a45b18a-2ff0-4f77-9e19-303f58996c75|/d099c2d0-8dd1-473c-aeee-021881bb2b86|/d099c2d0-8dd1-473c-aeee-021881bb2b86|/d099c2d0-8dd1-473c-aeee-021881bb2b86",
+        ""
+      ],
+      [
+        "power_pin_not_driven|1320800|-101600|34e476c2-87d5-4287-a5f2-9d03b7ee1e22|00000000-0000-0000-0000-000000000000|/d099c2d0-8dd1-473c-aeee-021881bb2b86|/d099c2d0-8dd1-473c-aeee-021881bb2b86|",
         ""
       ],
       [
@@ -880,8 +894,15 @@
         "uuid": "d099c2d0-8dd1-473c-aeee-021881bb2b86"
       }
     ],
-    "used_designators": "",
-    "variants": []
+    "used_designators": "R7",
+    "variants": [
+      {
+        "name": "No nPM2100"
+      },
+      {
+        "name": "nPM2100"
+      }
+    ]
   },
   "sheets": [
     [
