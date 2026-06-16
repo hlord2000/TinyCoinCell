@@ -10141,7 +10141,7 @@
 			)
 		)
 	)
-	(gr_text "cheap tinyboard \n${GIT_COMMIT}\n"
+	(gr_text "cheap tinyboard \n@{vcsidentifier(8)}\n"
 		(at 134.49516 112.19522 90)
 		(layer "F.SilkS")
 		(uuid "52ebe959-1d85-465c-bd3d-b184c1d33c43")
