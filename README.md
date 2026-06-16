@@ -4,9 +4,7 @@ TinyCoinCell is a compact KiCad reference design for a coin-cell powered
 Nordic beacon built around the nRF54L15, optional nPM2100 primary-cell PMIC,
 and an ADXL367 accelerometer.
 
-![TinyCoinCell top render](https://github.com/hlord2000/TinyCoinCell/releases/download/v2/top.png)
-
-![TinyCoinCell bottom render](https://github.com/hlord2000/TinyCoinCell/releases/download/v2/bottom.png)
+![TinyCoinCell top render](img/TinyCoinCell_top.png)
 
 ## Hardware
 
