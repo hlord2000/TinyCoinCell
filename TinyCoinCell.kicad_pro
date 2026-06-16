@@ -80,6 +80,14 @@
         [
           "track_dangling|139755160|101855220|f072ef76-824b-466d-a634-ee058fccc312|00000000-0000-0000-0000-000000000000",
           ""
+        ],
+        [
+          "unconnected_items|146095160|101695220|F.Cu|4|5340466c-e13a-4b82-ac69-a4d5d65ca661|12a68e5b-f4dd-47e9-948a-f3d5def72c42",
+          ""
+        ],
+        [
+          "unconnected_items|152795160|112615219|F.Cu|4|15a70426-9232-4015-9f25-a53c8e9b7ba1|5340466c-e13a-4b82-ac69-a4d5d65ca661",
+          ""
         ]
       ],
       "meta": {
@@ -300,7 +308,15 @@
         ""
       ],
       [
+        "multiple_net_names|1473200|165100|80243d44-989a-4bca-baae-f2d5476f560b|3a45b18a-2ff0-4f77-9e19-303f58996c75|/d099c2d0-8dd1-473c-aeee-021881bb2b86|/d099c2d0-8dd1-473c-aeee-021881bb2b86|/d099c2d0-8dd1-473c-aeee-021881bb2b86",
+        ""
+      ],
+      [
         "multiple_net_names|1473200|165100|89aaed07-a01f-4f8f-9ac9-17afe0267192|3a45b18a-2ff0-4f77-9e19-303f58996c75|/d099c2d0-8dd1-473c-aeee-021881bb2b86|/d099c2d0-8dd1-473c-aeee-021881bb2b86|/d099c2d0-8dd1-473c-aeee-021881bb2b86",
+        ""
+      ],
+      [
+        "multiple_net_names|1473200|165100|a085f3cc-4beb-4615-86de-f4e0e0c4547e|3a45b18a-2ff0-4f77-9e19-303f58996c75|/d099c2d0-8dd1-473c-aeee-021881bb2b86|/d099c2d0-8dd1-473c-aeee-021881bb2b86|/d099c2d0-8dd1-473c-aeee-021881bb2b86",
         ""
       ],
       [
@@ -579,7 +595,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "gerbers/",
+      "plot": "build/gerbs/",
       "specctra_dsn": "",
       "vrml": ""
     },
@@ -894,7 +910,7 @@
         "uuid": "d099c2d0-8dd1-473c-aeee-021881bb2b86"
       }
     ],
-    "used_designators": "R7",
+    "used_designators": "",
     "variants": [
       {
         "name": "No nPM2100"
